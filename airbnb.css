@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+color: rgb(255, 2, 2);
+display: inline-block;
+font-size: xx-large;
+font-weight: 800;
+
+
+
+}
+.work1{
+    display: inline-block;
+   text-decoration: none;
+   margin-left: 250px;
+   padding: 10px;
+   border: 2px black solid;
+   width: fit-content;
+   border-radius: 15px;
+   margin-top: 10px;
+   }
+a{
+    padding: 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.logo{
+    display: inline-block;
+    margin-left: 200px;
+    color: black;
+    text-align: center;
+}
+.lens{
+    display: inline-block;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 60px;
+}
+.container2{
+height: 60px;
+width: 100%;
+display: flex;  
+gap: 60px;
+
+
+}
+.home{
+    text-align: center;
+}
+.chimney{
+    text-decoration: none;
+    width: 50px;
+    height: 40px;
+    color: black;
+    text-align: center;
+    font-family: fantasy;
+
+}
+.container3{
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 50px;
+    display: flex;
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 30px;
+}
+.footer{
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    position: absolute;
+    padding: 10px;
+    flex-wrap: wrap;
+    
+
+    
+}
+.card-img-top{
+    cursor: pointer;
+    transition: 600ms;
+}
+div img:hover{
+    transform: perspective(1);
+    transform: scale(1.03);
+}
